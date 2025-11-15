@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação da Resposta</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html#home">Início</a></li>
+            <li><a href="index.html#about">Sobre</a></li>
+            <li><a href="index.html#contact">Contato</a></li>
+        </ul>
+        <a href="index.html" class="nav-icon-button">
+            <img src="icon.png" alt="Ícone de Perfil">
+        </a>
+    </nav>
+
+    <main>
+        <form id="form-garfield" action="formAction.html" method="get" onsubmit="return validarForm()">
+                
+                <label>Você ama o Garfield?</label>
+                
+                <div>
+                    <input type="radio" name="amorGarfield" value="sim" id="sim">
+                    <label for="sim">Sim</label>
+                    
+                    <input type="radio" name="amorGarfield" value="nao" id="nao">
+                    <label for="nao">Não</label>
+                </div>
+
+                <p id="form-erro"></p> 
+                
+                <button type="submit">Enviar Resposta</button>
+            </form>
+            <a href="index.html" style="margin-top: 20px; display: inline-block; text-decoration: none;">Voltar</a>
+    </main>
+
+</body>
+</html>

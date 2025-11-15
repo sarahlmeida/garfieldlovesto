@@ -1,0 +1,68 @@
+
+nav {
+    background-color: #ff9d00; 
+    height: 100px; 
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 30px;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    margin-right: auto;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-icon-button {
+    display: block;
+    height: 80px;
+    width: 80px;
+}
+
+.nav-icon-button img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+body {
+    padding-top: 100px; 
+    font-family: comic sans ms, cursive, sans-serif; 
+    margin: 0; 
+    background-image: url('fundo-garfield.png');
+    background-repeat: repeat;
+}
+
+main {
+    max-width: 80%; 
+    margin: 30px auto; 
+    padding: 30px;
+    background-color: white; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+
+
